@@ -1,8 +1,8 @@
 apiVersion: apps/v1
 kind: ReplicaSet
-metdata:
+metadata:
   name: myapp-relicaset
-  lables:
+  labels:
     app: myapp
 
 spec:                
